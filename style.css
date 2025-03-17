@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #473f34;
+    color: #CD8A39;
+}
+
+/*Contenedor de la imagen*/
+.image-container {
+    width: 60%;
+    max-width: 600px;
+    margin: 10% auto 0;
+    padding: 10px;
+    border: 2px solid #595d2b;   
+    border-radius: 15px; /*Aca regulo el redondeo del marco*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #f3f3f3;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
