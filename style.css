@@ -7,13 +7,13 @@ body {
 
 /*Contenedor de la imagen*/
 .banner-container {
-    width: 60%;
-    max-width: 60vw;
-    aspect-ratio: 522/188;
-    margin: 10% auto 0;
-    border: 2px solid #595d2b;   
-    border-radius: 15px; /*Aca regulo el redondeo del marco*/
-    overflow: hidden;
+    width: 60%; /* Ajusta el ancho dinámicamente */
+    max-width: 60vw; /* Evita que sea demasiado grande */
+    aspect-ratio: 522 / 118; /* Mantiene la proporción original */
+    margin: 10% auto 0; /* Centrar y ubicar a 3/4 de la pantalla */
+    border: 2px solid #595D2B;
+    border-radius: 15px;
+    overflow: hidden; /* Recorta la imagen si es necesario */
     display: flex;
     justify-content: center;
     align-items: center;
