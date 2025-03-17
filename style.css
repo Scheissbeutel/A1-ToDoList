@@ -6,23 +6,24 @@ body {
 }
 
 /*Contenedor de la imagen*/
-.image-container {
+.banner-container {
     width: 60%;
-    max-width: 600px;
+    max-width: 60vw;
+    aspect-ratio: 522/188;
     margin: 10% auto 0;
-    padding: 10px;
     border: 2px solid #595d2b;   
     border-radius: 15px; /*Aca regulo el redondeo del marco*/
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.image-container img{
+.banner-container img{
     max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 
 input, button {
