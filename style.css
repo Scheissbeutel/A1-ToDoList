@@ -6,18 +6,71 @@ body {
 }
 
 /*Contenedor de la imagen*/
-.banner-container {
-    width: 60%; /* Ajusta el ancho dinámicamente */
-    max-width: 60vw; /* Evita que sea demasiado grande */
-    aspect-ratio: 522 / 118; /* Mantiene la proporción original */
-    margin: 10% auto 0; /* Centrar y ubicar a 3/4 de la pantalla */
-    border: 2px solid #595D2B;
+.image-container {
+    width: 60%;
+    max-width: 60vw;
+    aspect-ratio: 522 / 118;
+    margin: 10% auto 0;
+    border: 5px solid #49642f;
     border-radius: 15px;
-    overflow: hidden; /* Recorta la imagen si es necesario */
+    overflow: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+}
+
+.reloj {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CD8A39;
+    font-size: 24px;
+    background-color: #473f34;
+    padding: 5px;
+    border-radius: 27px;
+    border: 5px solid #595D2B;
+    line-height: 1px;
+    font-weight: bolder;
+}
+
+.fecha{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CD8A39;
+    font-size: 24px;
+    background-color: #473f34;
+    padding: 5px;
+    border-radius:27px;
+    border: 5px solid #595D2B;
+    line-height: 1px;
+    font-weight: bolder;
+
+
+}
+
+.image {
+    width: 150%; /* Hace que la imagen sea más grande */
+    object-fit: cover; /* Evita deformaciones */
+    object-position: 50% 40%; /* Ajusta la posición para centrar los ojos */
+}
+
+.entrada {
+    width: 50%;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #060d08;
+    border: 3px solid #49642f;
+    border-radius: 15px;
+    color: #CD8A39;
+    font-size: 16px;
+    outline: none;
+}
+
+.entrada:focus{
+    border-color: #595D2B;
 }
 
 .banner-container img{
